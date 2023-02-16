@@ -1,10 +1,18 @@
 // Key Pair
 
-variable key_pair_name {        // Enter yoir key pair name
+variable key_pair_name {        // Enter your key pair name
     type = string
 }
 
-variable public_key_name {
+variable public_key_name {      // Enter your key pair name
+  type = string
+}
+
+variable key_pair_tag_owner {     // Enter your tag owner name
+  type = string
+}
+
+variable key_pair_tag_canbedelete {     // Enter your tag CanBeDelete
   type = string
 }
 
