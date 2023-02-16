@@ -2,7 +2,11 @@
 
 key_pair_name = "key_pair_terraform" // Enter your Key Pair Name
 
-public_key_name = "/key_pair_terraform.pub"  // Enter your full path of SSH public key file using EX : /home/user/.ssh/my-ssh-public-key.pub  && Create Key-Pair using this command : ssh-keygen -t rsa -b 4096 -C "key_pair_terraform"
+public_key_name = "/key_pair_terraform.pub"  // Enter your full path of SSH public key file using EX : /home/user/.ssh/my-ssh-public-key.pub
+
+key_pair_tag_owner = "Atul"             // Enter your key pair tag Owner name
+
+key_pair_tag_canbedelete = "Yes"        // Enter your key pair tag CanBeDelete choice : Yes / No
 
 
 #============================================================================================
